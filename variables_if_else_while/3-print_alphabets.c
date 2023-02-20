@@ -7,22 +7,28 @@
 
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+        char upper  = 'A';
+        char lower = 'a';
 
-	while (lower <= 'z')
-		{
-			putchar(lower);
-			lower++;
-		}
+        while (lower <= 'z')
 
-	while (upper <= 'Z')
-		{
-			putchar(upper);
-			upper++;
-		}
-	
-	putchar('\n');
+        {
+                putchar(lower);
+                lower++;
+        }
 
-	return (0);
+        while (upper <= 'Z')
+
+        {
+                putchar(upper);
+                upper++;
+        }
+
+        putchar('\n');
+
+        return (0);
+
 }
+NEW
+[6:35 PM]
+
