@@ -3,7 +3,7 @@
 /**
  * main - assign a random number to the variable
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
