@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
  * main - assing random number toa a variable
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	last = n % 10;
 
 	if (last > 5)
-		printf("last digit of %d is %d and is greater than 5", n, last);
+		printf("last digit of %d is %d and is greater than 5\n", n, last);
 	else if (last == 0)
 		printf("last digit of %d is %d is 0", n, last);
 	else if (!(last < 6))
