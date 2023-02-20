@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - assing random number toa a variable
+/** 
+ * main - assing random number toa a variable
  * Return: Always 0 (Success) 
  */
 
