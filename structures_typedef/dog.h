@@ -6,6 +6,7 @@
  * GitHub repository: holbertonschool-low_level_programming
  * Directory: structures_typedef
  * File: dog.hdog - typedef variable
+ * @struct dog: variable typedef
  * @name: char type
  * @age: float type
  * @owner: char type
