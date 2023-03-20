@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct Repo: description
+ * struct dog: typedef variable
  * GitHub repository: holbertonschool-low_level_programming
  * Directory: structures_typedef
  * File: dog.hdog - typedef variable
