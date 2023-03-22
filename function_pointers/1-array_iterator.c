@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "function_pointers.h"
+#include <stdio.h>
 /**
  * array_iterator - parameter on each element
  * @array: array integer to check
