@@ -9,18 +9,18 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	va_list p;
-	char *a;
+	va_list list;
+	char *ptr;
 
 	if (separator == NULL)
 	{
 	}
 
-	va_start(p, n);
+	va_start(list, n);
 
 	for (i = 0; i < n; i++)
 	{
-		a = va_arg(p, char *);
+		ptr = va_arg(p, char *);
 		if (a == NULL)
 		{
 			printf("(nil)");
@@ -35,5 +35,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
-	va_end(p);
+	va_end(list);
 }
