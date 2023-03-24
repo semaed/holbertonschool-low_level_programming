@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", va_arg(list, char *));
 		}
 
-		if (list == NULL)	
+		else	
 		{
 		     printf("%s", ptr);
 		}
