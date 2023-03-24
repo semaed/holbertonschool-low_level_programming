@@ -19,15 +19,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		ptr = "(nil)";
+		ptr = va_arg(list, char *); 
 		if (list != NULL)
 		{
-			printf("%s", va_arg(list, char *));
+			printf("%s", ptr);
 		}
 
 		else	
 		{
-		     printf("%s", ptr);
+		     printf("(nil)");
 		}
 
 		if (separator != NULL && i < n - 1)
